@@ -12,4 +12,5 @@ try:
         else:
                 print(f"\n{url} returned error: {response.status_code}")
 except:
+
         print(f"{url} failed (Conection error/DNS)")
